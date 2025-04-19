@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: hsl(185, 75%, 39%);
+}
+
+.container {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    background-color: white ;
+}
+
+.perfil {
+    background-color: #fff;
+    border-radius: 12px;
+    padding: 30px 20px;
+    text-align: center;
+    width: 350px;
+    height: 200px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.avatar {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 16px;
+    
+}
+
+.nome {
+    text-align: center;
+}
+
+.h2 {
+    margin: 0;
+    font-size: 20px;
+    
+}
+
+.h2 span {
+    color: gray;
+    font-weight: normal;
+    margin-left: 5px;
+}
+
+.localizacao {
+    color: gray;
+    font-size: 17px;
+    margin: 5px 0 25px;
+    text-align: center;
+}
+
+.estatisticas {
+    display: grid;
+    text-align: center;
+    grid-template-columns: repeat(3, 1fr);
+    border-top: 1px solid #eee;
+    padding-top: 15px;
+    gap: 10px;
+}
+
+.estatisticas strong {
+    display: block;
+    font-size: 16px;
+}
